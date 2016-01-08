@@ -1,0 +1,5 @@
+{
+  "name": "users",
+  "main": "./users.module.js",
+  "description": "Module Users"
+}
