@@ -1,9 +1,9 @@
 {
-  "name": "pleisi-boilerplate",
+  "name": "simple-mean-boilerplate",
   "version": "0.0.0",
   "private": true,
   "main": "app.js",
-  "description": "",
+  "description": "Simple Mean Stack Boilerplate",
   "scripts": {
     "start": "nodemon ./bin/www",
     "test": "./node_modules/.bin/mocha --reporter spec"
@@ -16,12 +16,8 @@
     "method-override": "^2.3.5",
     "mongoose": "^4.3.4",
     "morgan": "~1.6.1",
-    "nodemailer": "^1.11.0",
-    "nodemailer-mandrill-transport": "^1.0.0",
-    "passport": "^0.3.2",
     "q": "^1.4.1",
-    "socket.io": "^1.3.7",
-    "stripe": "^4.1.0"
+    "socket.io": "^1.3.7"    
   },
   "devDependencies": {
     "bower": "^1.7.1",
@@ -33,10 +29,13 @@
     "gulp-copy": "0.0.2",
     "gulp-cssmin": "^0.1.7",
     "gulp-htmlmin": "^1.3.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-stylus": "^2.2.0",
     "gulp-uglify": "^1.5.1",
     "gulp-useref": "^3.0.4",
     "jeet": "^6.1.2",
     "jscs": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
     "karma": "^0.13.18",
     "mocha": "^2.3.4",
     "nib": "^1.1.0",
