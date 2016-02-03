@@ -2,17 +2,17 @@
   'use strict';
 
   angular.element(document).ready(function() {
-    angular.bootstrap(document.body, ['pleisiApp']);
+    angular.bootstrap(document.body, ['app']);
   });
 
-  angular.module('pleisiApp', ['core.module'])
+  angular.module('app', ['core.module'])
 
-  .controller('MainController', MainControllerFn);
+  .controller('MainController', MainController);
 
 
-  function MainControllerFn() {
+  function MainController() {
     var vm = this;
 
-    vm.hello = "Hola Pleisi";
+    vm.hello = "Simple MEAN Boilerplate";
   }
 })();
